@@ -95,7 +95,7 @@ footer{
 }
 @media only screen and (max-width: 600px) {
   .navbar-brand{
-    letter-spacing:0;
+    letter-spacing:0.5px;
   }
   #h4{
   font-size:18px;
