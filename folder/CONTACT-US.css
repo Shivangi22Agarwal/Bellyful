@@ -1,0 +1,103 @@
+#body{
+  background-color:maroon;
+  font-family: 'Quicksand', cursive;
+  font-weight: 350;
+  color:white;
+  letter-spacing:1px;
+}
+a:active{
+  color:white;
+}
+nav{
+  position:fixed;
+  background-color:#540606;
+ }
+.fa-navicon{
+  text-shadow:2px 2px 7px #ff0000;
+  color:gold;
+  margin-top:3px;
+}
+.navbar-brand{
+  margin-left:8px;
+  margin-top: 1px;
+  letter-spacing:2px;
+  float:left;
+  color:gold;
+  font-family: 'Quicksand',cursive;
+  text-shadow:2px 2px 7px #ff0000;
+  font-size:40px;
+}
+.navbar-brand:hover{
+  color:gold;
+}
+.nav-link:hover{
+  font-weight:bold;
+  color:gold;
+}
+.nav-link{
+  letter-spacing:2.5px;
+  color:gold;
+}
+a{
+  color:white;
+  font-family:sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+ color:gold;
+ font-weight: 700;
+}
+h4{
+  font-size:25px;
+  text-decoration: underline;
+}
+.row a{
+  color:white;
+}
+.row i{
+  color:maroon;
+  width:auto;
+  padding:5px;
+  background-color:white;
+  border-radius:50%;
+}
+form{
+  padding:3% 5%;
+  background-color:rgba(0,0,0,0.25);
+  border-radius:20px;
+}
+button{
+  letter-spacing:1px;
+  width:120px;
+  background-color:white;
+}
+form button:hover{
+  font-weight:bold;
+  cursor:pointer;
+}
+p span{
+  color:gold;
+}
+form span{
+  color:black;
+}
+footer span,.fa-heart{
+  color:gold;
+}
+footer{
+  text-align: center;
+  padding: 3px;
+  background-color: rgba(0,0,0,0.4);
+  color: white;
+  font-size:90%;
+  font-family:sans-serif;
+  letter-spacing:1.5px;
+}
+@media only screen and (max-width: 600px) {
+  #h4{
+  font-size:18px;
+  }
+  footer{
+    letter-spacing:0.5px;
+  }
+}
