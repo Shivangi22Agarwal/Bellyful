@@ -67,6 +67,9 @@ footer{
   letter-spacing:1.5px;
 }
 @media only screen and (orientation:portrait) {
+  .navbar-brand{
+    letter-spacing:0.5px;
+  }
   summary{
     font-size:15px;
     padding:5px;
