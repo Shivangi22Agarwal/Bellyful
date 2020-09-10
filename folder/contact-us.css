@@ -16,8 +16,6 @@ nav{
   text-shadow:2px 2px 7px #ff0000;
   color:gold;
   margin-top:3px;
-  position:absolute;
-  right:0;
 }
 .navbar-brand{
   margin-left:8px;
@@ -96,6 +94,9 @@ footer{
   letter-spacing:1.5px;
 }
 @media only screen and (max-width: 600px) {
+  .navbar-brand{
+    letter-spacing:0.5px;
+  }
   #h4{
   font-size:18px;
   }
